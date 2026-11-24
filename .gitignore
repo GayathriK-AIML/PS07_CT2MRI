@@ -1,0 +1,46 @@
+
+# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+dataset/volumes/
+dataset/slices/
+dataset/.cache/
+
+# Model checkpoints
+models/*.pth
+models/*.pt
+models/*.h5
+models/**/*.pth
+models/**/*.pt
+models/**/*.h5
+
+# Generated medical volumes
+outputs/**/*.nii
+outputs/**/*.nii.gz
+
+# Temporary files and logs
+logs/
+*.log
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+# Large dataset and generated binary files
+*.npz
+
+# Medical imaging volumes (all project folders)
+*.nii
+*.nii.gz
